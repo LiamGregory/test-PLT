@@ -23,6 +23,7 @@ const BasketItem: React.FC<BasketItemProps> = ({ item, onRemove, onIncrease, onD
       <Button title="+" onPress={onIncrease}   />        
     </View>
     <Ionicons
+      testID={"Remove"}
       name="trash"
       size={24}
       color="red"
